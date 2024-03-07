@@ -50,8 +50,8 @@ git commit -m "first commit"
 git branch -M main
 
 # 分别向Gitee和Github推送主分支
-git push -u gitee main
-git push -u github main
+git push --set-upstream gitee main
+git push --set-upstream github main
 ```
 
 此后，每次提交只需要重复最后一步的推送操作即可。
