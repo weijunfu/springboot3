@@ -130,4 +130,4 @@ public class MyTaskScheduler {
 
 通过上述步骤，您就可以在 Spring Boot 应用中轻松创建并管理各种定时任务了。根据具体需求选择合适的调度策略，并合理配置线程池以确保系统的稳定性和效率。对于复杂的定时任务场景，还可以考虑结合 Quartz 进行更加精细化的管理和控制。
 
-完整示例代码参考：[TimerConfig.java](./src/main/java/com/ijunfu/timer/config/TimerConfig.java)
+完整示例代码参考：[TimerConfig.java](./src/main/java/com/github/weijunfu/timer/config/TimerConfig.java)
