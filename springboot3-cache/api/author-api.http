@@ -1,0 +1,3 @@
+### 查找所有Author
+GET http://localhost:7121/author/
+Accept: application/json

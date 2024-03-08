@@ -1,0 +1,28 @@
+### 查找所有Author
+GET http://localhost:7121/usr/
+Accept: application/json
+
+### 根据id查找指定Author
+GET http://localhost:7121/usr/1
+Accept: application/json
+
+### 添加一个Author：id=1已存在
+POST http://localhost:7121/usr/1/item
+Accept: application/json
+
+### 添加一个Author：id=3 name=fu
+POST http://localhost:7121/usr/3/fu
+Accept: application/json
+
+### 根据id=3查找指定Author
+GET http://localhost:7121/usr/3
+Accept: application/json
+
+### 修改Author（id=3），将name改为“fu2”
+PUT http://localhost:7121/usr/3/fu2
+Accept: application/json
+
+
+### 删除Author（id=3）
+DELETE http://localhost:7121/usr/3
+Accept: application/json
