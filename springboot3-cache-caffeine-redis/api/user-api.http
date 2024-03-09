@@ -1,0 +1,3 @@
+### 根据id查询用户
+GET http://localhost:7121/usr/1
+accept: application/json
